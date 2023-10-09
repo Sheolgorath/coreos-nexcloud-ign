@@ -1,1 +1,12 @@
-{test}
+{
+  "ignition": { "version": "3.4.0" },
+  "passwd": {
+    "users": [
+      {
+        "name": "coreadm",
+        "sshAuthorizedKeys": [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJeGGjNOQVDzcBmtDP4tT61bKrHTJf6Wi/CsdhGP3KgZ eddsa-key-20231009" ],
+        "groups": [ "wheel"]
+      }
+    }
+  }
+}
